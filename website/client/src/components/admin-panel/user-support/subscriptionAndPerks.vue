@@ -72,29 +72,6 @@
             >
           </label>
         </div>
-        <div class="form-inline">
-          <label>
-            Perk offset months:
-            <input
-              v-model="hero.purchased.plan.consecutive.offset"
-              class="form-control"
-              type="number"
-              min="0"
-              step="1"
-            >
-          </label>
-        </div>
-        <div class="form-inline">
-          Perk month count:
-          <input
-            v-model="hero.purchased.plan.perkMonthCount"
-            class="form-control"
-            type="number"
-            min="0"
-            max="2"
-            step="1"
-          >
-        </div>
         <div>
           Next Mystic Hourglass:
           <strong>{{ nextHourglassDate }}</strong>
