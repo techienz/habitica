@@ -854,9 +854,9 @@ export default {
       this.$emit('buyPressed', this.item);
       this.hideDialog();
 
-      if (this.item.key === 'rebirth_orb') {
-        window.location.reload(true);
-      }
+      // if (this.item.key === 'rebirth_orb') {
+      //   window.location.reload(true);
+      // }
     },
     purchaseGems () {
       this.$root.$emit('bv::show::modal', 'buy-gems');
