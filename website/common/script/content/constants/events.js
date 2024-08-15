@@ -90,7 +90,7 @@ export const REPEATING_EVENTS = {
     npcImageSuffix: '_thanksgiving',
     foodSeason: 'Pie',
   },
-  fallGemsPromo: {
+  fall_extra_gems: { // eslint-disable-line camelcase
     start: new Date('1970-08-16T08:00-05:00'),
     end: new Date('1970-08-23T20:00-05:00'),
     gemsPromo,
@@ -311,11 +311,6 @@ export const EVENTS = {
     npcImageSuffix: '_fall',
     season: 'fall',
     gear: true,
-  },
-  fall_extra_gems: {
-    start: '2022-10-06T08:00-04:00',
-    end: '2022-10-13T20:00-04:00',
-    gemsPromo,
   },
   bundle202210: {
     start: '2022-10-13T08:00-04:00',
