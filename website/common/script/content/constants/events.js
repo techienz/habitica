@@ -90,6 +90,11 @@ export const REPEATING_EVENTS = {
     npcImageSuffix: '_thanksgiving',
     foodSeason: 'Pie',
   },
+  fallGemsPromo: {
+    start: new Date('1970-08-16T08:00-05:00'),
+    end: new Date('1970-08-23T20:00-05:00'),
+    gemsPromo,
+  },
 };
 
 export function getRepeatingEvents (date) {
@@ -129,7 +134,6 @@ export const EVENTS = {
     start: '2024-04-09T08:00-04:00',
     end: '2024-04-30T23:59-04:00',
   },
-
   aprilFools2024: {
     start: '2024-04-01T00:00-04:00',
     end: '2024-04-02T08:00-04:00',
