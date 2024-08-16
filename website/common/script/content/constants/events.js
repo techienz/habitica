@@ -93,6 +93,7 @@ export const REPEATING_EVENTS = {
   fall_extra_gems: { // eslint-disable-line camelcase
     start: new Date('1970-08-16T08:00-05:00'),
     end: new Date('1970-08-23T20:00-05:00'),
+    event: 'fall_extra_gems',
     gemsPromo,
   },
 };
