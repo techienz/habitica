@@ -138,7 +138,7 @@ async function updateUser (user) {
   }
 
   if (count % progressCount === 0) console.warn(`${count} ${user._id}`);
-  return await User.update({_id: user._id}, {$inc: inc, $push: push, $set: set}).exec();
+  return await User.updateOne({_id: user._id}, {$inc: inc, $push: push, $set: set}).exec();
 }
 
 export default async function processUsers () {
