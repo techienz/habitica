@@ -317,7 +317,7 @@
                 v-html="icons.hourglassLeft"
               >
               </div>
-              <div v-if="nextHourGlass">
+              <div v-if="nextHourGlass" class="text-center">
                 <div
                   class="white mb-1"
                 >
